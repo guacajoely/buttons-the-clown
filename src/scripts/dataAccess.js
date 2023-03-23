@@ -35,8 +35,9 @@ export const fetchCompletions = () => {
 
 export const getRequests = () => {
     let unsortedArray = applicationState.requests.map(obj => ({ ...obj }))
-    const sortedArray = unsortedArray.sort((a, b) => b.completed - a.completed);
-    return sortedArray
+    const sortedByDate = unsortedArray.sort((a, b) => a.date - b.date);
+    const sortedByCompletion = sortedByDate.sort((a, b) => a.completed - b.completed);
+    return sortedByCompletion
 }
 
 export const getClowns = () => {
