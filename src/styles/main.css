@@ -62,12 +62,13 @@ ul, li {
 
 ul{
     border: thin dotted lightblue;
-    width: 602px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
 }
 
 li {
     padding: 10px;
-    width: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,6 +78,6 @@ li:nth-child(odd){
     background-color: var(--example-gray-background);
 }
 
-.plumbers {
+.clowns {
     padding: 5px;
 }

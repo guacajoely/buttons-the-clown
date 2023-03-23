@@ -1,0 +1,49 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "2",
+      "clownId": "1",
+      "timestamp": "1679586618341",
+      "id": 1
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "parentName": "George",
+      "childName": "Timmy",
+      "attendeeCount": 15,
+      "address": "123 main st",
+      "date": "2023-03-23",
+      "durationInHours": 2
+    },
+    {
+      "parentName": "Sharon",
+      "childName": "Jordan",
+      "attendeeCount": "20",
+      "address": "2000 20th street",
+      "date": "2023-03-31",
+      "durationInHours": "2",
+      "id": 2
+    },
+    {
+      "parentName": "Steve",
+      "childName": "George",
+      "attendeeCount": "123",
+      "address": "123  ",
+      "date": "2023-03-31",
+      "durationInHours": "2",
+      "id": 3
+    }
+  ]
+}
