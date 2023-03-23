@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+*{
+    --example-submit-button: #474f9e;
+    --example-delete-button: #a347db;
+    --example-gray-background: #ebe9ea;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+main {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.label {
+    font-size: 18px;
+}
+
+input{
+    width: 500px;
+}
+
+.request__submit{
+    margin: 2rem 0;
+    padding: 0.5rem;
+    background-color: var(--example-submit-button);
+    color: white;
+    font-size: 1rem;
+}
+
+.request__delete{
+    padding: 5px;
+    background-color: var(--example-delete-button);
+    color: white;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul{
+    border: thin dotted lightblue;
+    width: 602px;
+}
+
+li {
+    padding: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:nth-child(odd){
+    background-color: var(--example-gray-background);
+}
+
+.plumbers {
+    padding: 5px;
+}
